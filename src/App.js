@@ -43,7 +43,7 @@ function App() {
             </div>
 
             <div class="col-6 text">
-              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 }}>ซึ่งเนื้อเรื่องของ”หนูน้อยหมวกแดง”ได้ถูกเปลี่ยนแปลงและดัดแปลงอยู่ตลอดเวลาโดยมาจากการเล่าซ้ำหลายครั้งและมีการดัดแปลงเนื้อหาเพื่อให้เข้ากับการนิทานที่ให้มีความทันสมัยมากขึ้นตามยุคสมัยนั้นๆซึ่งชื่ออื่นของเรื่องหนูน้อยหมวกแดงได้แก่<br /><b>“Little Red Cap” หรือ “Red Riding Hood”</b></p>
+              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 , paddingRight : 50}}>ซึ่งเนื้อเรื่องของ”หนูน้อยหมวกแดง”ได้ถูกเปลี่ยนแปลงและดัดแปลงอยู่ตลอดเวลาโดยมาจากการเล่าซ้ำหลายครั้งและมีการดัดแปลงเนื้อหาเพื่อให้เข้ากับการนิทานที่ให้มีความทันสมัยมากขึ้นตามยุคสมัยนั้นๆซึ่งชื่ออื่นของเรื่องหนูน้อยหมวกแดงได้แก่<br /><b>“Little Red Cap” หรือ “Red Riding Hood”</b></p>
               </div>
             </div>
 {/* ------------------------------------------------------------------------------- */}
@@ -56,14 +56,14 @@ function App() {
 
             <div class="col-6 textp2">
               <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 }}>Little Red Riding Hood</p>
-              <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 }}> เด็กสาวหน้าตาน่ารักที่ชอบนั่งเล่นดูคุณแม่ทำอาหารอยู่ในครัวจนเพื่อนบ้านต่างเรียกเธอว่า
+              <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10, paddingRight : 50 }}> เด็กสาวหน้าตาน่ารักที่ชอบนั่งเล่นดูคุณแม่ทำอาหารอยู่ในครัวจนเพื่อนบ้านต่างเรียกเธอว่า
                 <b>“หนูน้อยหมวกแดง”</b>
                 เพราะเป็นสีที่เธอชอบใส่อยู่เป็นประจำและเธอได้รับหน้าที่จากคุณแม่ให้นำอาหารและขนมไปเยี่ยมคุณยายที่อาศัยอยู่ที่หมู่บ้านข้างๆ
               </p>
             </div>
 {/* ------------------------------------------------------------------------------- */}   
             <div class="col-6 black textp2">
-              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 }} >A Big Bad Wolf</p>
+              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 , paddingTop: 80, marginBottom:100}} >A Big Bad Wolf</p>
               <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 }}>
                 หมาป่าเจ้าเล่ห์ที่มาพบหนูน้อยหมวกแดงเข้าไปทักทายและพยายามคิดกลอุบายที่จะหลอกล่อหนูน้อยหมวกแดงเพื่อหวังที่จับมาเป็นอาหารเย็น
               </p>
@@ -76,7 +76,7 @@ function App() {
 
             <div class="col-6 textp2 black">
               <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 }}>Grandma</p>
-              <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 }}>
+              <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 , paddingRight : 50}}>
                 คุณยายของหนูน้อยหมวกแดงที่อาศัยอยู่ที่หมู่บ้านข้างๆ
                 และรอหนูน้อยหมวกแดงเอาอาหารมาเยี่ยมดูอาการป่วยของคุณยาย
               </p>
