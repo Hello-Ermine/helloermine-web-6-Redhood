@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("Final_BG.png");
 }
 
 .App-logo {
@@ -38,7 +39,7 @@
 }
 @font-face {
   font-family: Font;
-  src: url(../public/Font/BellMT.ttf);
+  src: url(./Font/BellMT.ttf);
 }
 ul {
   margin: 0;
@@ -68,7 +69,7 @@ li a {
   float: right;
   margin: 0px;
   font-family: "PRIMETIME", sans-serif;
-  
+
   font-size: 18px;
 }
 li a:hover:not(.active) {
@@ -78,19 +79,16 @@ ul li a {
   font-family: "Bell MT", Courier, monospace;
 }
 div div div h1 {
-  color: #FD5C5C;
+  color: #fd5c5c;
   font-family: "Bell MT", Courier, monospace;
   font-size: 100px;
   margin-top: 220px;
   margin-bottom: 220px;
-  
-  
 }
-.bighead{
-  font-weight: bold ;
+.bighead {
+  font-weight: bold;
   -webkit-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: rgb(0, 0, 0);
-
 }
 .headh2 {
   font-family: "Bell MT", Courier, monospace;
@@ -104,7 +102,6 @@ div div div h1 {
   font-size: 60px;
 }
 .headh2R {
-  
   font-family: "Bell MT", Courier, monospace;
   background-color: #ffb4b4;
   padding-bottom: 15px;
@@ -112,7 +109,6 @@ div div div h1 {
   border-radius: 50px 0px 0px 50px;
   margin-left: 900px;
   font-size: 60px;
-  
 }
 .textp1 {
   font-family: "Kanit", Courier, monospace;
@@ -124,7 +120,6 @@ div div div h1 {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: justify;
-
 }
 .textp3 {
   font-family: "Kanit", Courier, monospace;
@@ -135,9 +130,8 @@ div div div h1 {
   font-size: 30px;
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
-.front{
+.front {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -160,7 +154,7 @@ div div div h1 {
   text-align: center;
   font-family: "Bell MT", Courier, monospace;
 }
-.photo{
+.photo {
   width: 680px;
   height: 464px;
 }
@@ -169,4 +163,3 @@ div div div h1 {
   border: #282c34 2px solid;
 
 } */
- 
