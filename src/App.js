@@ -52,10 +52,10 @@ function App() {
           </div>
 {/* ------------------------------------------------------------------------------- */}         
           <div class="row black">
-            <div class="col-6 black"><img src="/photo/2.png" /></div>
+            <div class="col-6 black" style={{paddingTop : 80}}><img src="/photo/2.png" /></div>
 
             <div class="col-6 textp2">
-              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 }}>Little Red Riding Hood</p>
+              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10,paddingTop : 80 }}>Little Red Riding Hood</p>
               <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10, paddingRight : 50 }}> เด็กสาวหน้าตาน่ารักที่ชอบนั่งเล่นดูคุณแม่ทำอาหารอยู่ในครัวจนเพื่อนบ้านต่างเรียกเธอว่า
                 <b>“หนูน้อยหมวกแดง”</b>
                 เพราะเป็นสีที่เธอชอบใส่อยู่เป็นประจำและเธอได้รับหน้าที่จากคุณแม่ให้นำอาหารและขนมไปเยี่ยมคุณยายที่อาศัยอยู่ที่หมู่บ้านข้างๆ
@@ -63,13 +63,13 @@ function App() {
             </div>
 {/* ------------------------------------------------------------------------------- */}   
             <div class="col-6 black textp2">
-              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 , paddingTop: 80, marginBottom:100}} >A Big Bad Wolf</p>
-              <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 }}>
+              <p className="textp1 font" style = {{ paddingLeft : 20, margin : 10 , paddingTop: 80}} >A Big Bad Wolf</p>
+              <p style = {{ paddingLeft : 40 , paddingRight : 20 ,paddingBottom : 100}}>
                 หมาป่าเจ้าเล่ห์ที่มาพบหนูน้อยหมวกแดงเข้าไปทักทายและพยายามคิดกลอุบายที่จะหลอกล่อหนูน้อยหมวกแดงเพื่อหวังที่จับมาเป็นอาหารเย็น
               </p>
             </div>
 
-            <div class="col-6">
+            <div class="col-6" style={{paddingTop : 30}}>
             <img src="/photo/2.png" /></div>
 {/* ------------------------------------------------------------------------------- */}               
             <div class="col-6 black" ><img src="/photo/2.png" /></div>
@@ -83,14 +83,14 @@ function App() {
             </div>
 {/* ------------------------------------------------------------------------------- */}      
             <div class="col-6 black textp2">
-              <p className="font" style = {{ paddingLeft : 20, margin : 10 }}>Huntsman</p>
+              <p className="font" style = {{ paddingLeft : 20, margin : 10 ,paddingTop : 40}}>Huntsman</p>
               <p style = {{ paddingLeft : 40 , paddingRight : 20 , margin : 10 }}>นายพรานหนุ่มผู้ใจดีที่ได้ยินเสียงร้องขอความช่วยเหลือจากหนูน้อยหมวกแดงจึงมาช่วยชีวิตหนูน้อยหมวกแดงและคุณยายจากหมาป่าเจ้าเล่ห์ได้สำเร็จ</p>
             </div>
 
-            <div class="col-6"><img src="/photo/2.png" /></div>
+            <div class="col-6" style={{paddingTop : 50}}><img src="/photo/2.png" /></div>
 {/* ------------------------------------------------------------------------------- */}   
             <div>
-              <div class="col-5 headh2"><h2>STORY </h2></div>
+              <div class="col-5 headh2" style={{margin : 30 , paddingLeft : 40}}><h2>STORY </h2></div>
             </div>
 {/* ------------------------------------------------------------------------------- */}   
             <div class="col-6 black textp2">
@@ -103,7 +103,7 @@ function App() {
 
             <div class="col-6 black"><img src="/photo/2.png" /></div>
 {/* ------------------------------------------------------------------------------- */}   
-            <div class="col-6 black"><img src="/photo/2.png" /></div>
+            <div class="col-6 black" style={{paddingTop : 70}}><img src="/photo/2.png" /></div>
             <div class="col-6 textp2">
               <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 }}>
                 ระหว่างทางไปบ้านคุณยายบังเอิญมีหมาป่าเจ้าเล่ห์เดินมาพบกับหนูน้อยหมวกแดง
@@ -113,7 +113,7 @@ function App() {
             </div>
 {/* ------------------------------------------------------------------------------- */}   
             <div class="col-6 textp2 black">
-              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 }}>
+              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10,paddingTop : 20 }}>
                 หนูน้อยหมวกแดงหลงเชื่อคำชวนและเดินเล่น อย่างเพลิดเพลินจนลืมเวลา
                 กระทั่งเจ้าหมาป่าเดินทางไปถึงหมู่บ้านข้าง ๆ
                 แล้วจับตัวคุณยายซ่อนเอาไว้ในตู้เพื่อปลอมตัว
@@ -124,12 +124,12 @@ function App() {
                 แปลกประหลาดไปจากเดิม
               </p>
             </div>
-            <div class="col-6"><img src="/photo/2.png" /></div>
+            <div class="col-6" style={{paddingTop : 70}}><img src="/photo/2.png" /></div>
 {/* ------------------------------------------------------------------------------- */}   
-            <div class="col-6"><img src="/photo/2.png" /></div>
+            <div class="col-6" style={{paddingTop : 70}}><img src="/photo/2.png" /></div>
 
             <div class="col-6 textp2 black">
-              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 }}>
+              <p style = {{ paddingLeft : 20 , paddingRight : 20 , margin : 10 , fontSize : 28 , paddingRight :60} }>
                 หนูน้อยจึงถามคำถามต่าง ๆ ด้วยความสงสัย
                 กระทั่งสังเกตเห็นเขี้ยวแหลมในปากหมาป่า แล้วค่อย ๆ
                 เดินถอยออกมาเพราะเริ่มรู้สึกไม่ปลอดภัยหมาป่าไม่แสร้งทำตัวใจดีอีกต่อไปพร้อมกระโจนมาตะครุบตัวหนูน้อยหมวกแดงอย่างเกรี้ยวกราดโชคดีที่เสียงกรี๊ด
@@ -142,7 +142,7 @@ function App() {
 
 {/* ------------------------------------------------------------------------------- */}   
 
-        <div class="col-2 black" style={{marginTop : 80 ,}}><h2>ABOUR US</h2></div>
+        <div class="col-12 black" style={{marginTop : -200}}><h1>ABOUT US</h1></div>
         
 
         <div class="col-2 black"> 1</div>
