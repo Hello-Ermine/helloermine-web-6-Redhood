@@ -83,8 +83,10 @@ div div div h1 {
   
 }
 .bighead{
-  font-weight: bolder ;
-  border: #282c34 4.5px solid;
+  font-weight: bold ;
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+
 }
 .headh2 {
   font-family: "Bell MT", Courier, monospace;
