@@ -2,7 +2,7 @@
   text-align: center;
   background-image: url("Final_BG.png");
   width: 1440px;
-  background-repeat: none ;
+  background-repeat: none;
 }
 
 .App-logo {
@@ -62,7 +62,6 @@ ul {
   font-family: "PRIMETIME", sans-serif;
 }
 li a {
-
   display: block;
   color: black;
   text-align: center;
@@ -162,15 +161,13 @@ div div div h1 {
   width: 680px;
   height: 464px;
 }
-.ab{
-  background-color: #FFB4B4;
+.ab {
+  background-color: #ffb4b4;
   padding: 15px;
   border-radius: 50px;
   font-size: 55px;
   color: #fd5c5c;
-  
 }
-
 
 /* .black{
   border: #282c34 2px solid;
