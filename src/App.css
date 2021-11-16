@@ -2,6 +2,7 @@
   text-align: center;
   background-image: url("Final_BG.png");
   width: 1440px;
+  background-repeat: none ;
 }
 
 .App-logo {
@@ -46,7 +47,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 100%;
+  width: 1447px;
   list-style-type: none;
   background-color: #f4a7bb;
   margin-top: -60px;
@@ -110,7 +111,7 @@ div div div h1 {
   padding-top: 25px;
   border-radius: 50px 0px 0px 50px;
   margin-top: 130px;
-  margin-left: 900px;
+  margin-left: 840px;
   font-size: 60px;
 }
 .textp1 {
@@ -161,6 +162,15 @@ div div div h1 {
   width: 680px;
   height: 464px;
 }
+.ab{
+  background-color: black;
+  padding: 20px;
+  border-radius: 60px;
+  font-size: 60px;
+  color: #fd5c5c;
+  
+}
+
 
 /* .black{
   border: #282c34 2px solid;

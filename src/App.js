@@ -6,7 +6,7 @@ function App() {
     <div className="App black">
       <ul>
         <li>
-          <a href="#P1">ABOUT US</a>
+          <a style={{paddingRight : 80}} href="#P1">ABOUT US</a>
         </li>
         <li>
           <a href="#P2">STORY</a>
@@ -16,6 +16,9 @@ function App() {
         </li>
         <li>
           <a href="#P4">ORIGINAL STORY</a>
+        </li>
+        <li>
+          <img style = {{marginLeft : -600}} src="/photo/LOGO.png" />
         </li>
       </ul>
 
@@ -32,9 +35,13 @@ function App() {
       </div>
       {/* ------------------------------------------------------------------------------- */}
       <div>
+        
+           
+
         <div class="col-5 headh2">
           <h2 id="P4">THE ORIGINAL STORY</h2>
-        </div>
+        </div> 
+        <div class="col-7"></div>
         {/* ------------------------------------------------------------------------------- */}
         <div class="row black">
           <div class="col-6 black text">
@@ -79,6 +86,7 @@ function App() {
           </div>
         </div>
         {/* ------------------------------------------------------------------------------- */}
+        <div class="col-7"> </div>
         <div class="col-5 headh2R">
           <h2 id="P3">CHARACTERS</h2>
         </div>
@@ -166,7 +174,7 @@ function App() {
           </div>
           {/* ------------------------------------------------------------------------------- */}
           <div>
-            <div class="col-5 headh2" style={{ margin: 30, paddingLeft: 40 }}>
+            <div class="col-5 headh2" style={{ margin: 30, paddingLeft: 40 , marginLeft : 0}}>
               <h2 id="P2">STORY </h2>
             </div>
           </div>
@@ -241,10 +249,13 @@ function App() {
           </div>
 
           {/* ------------------------------------------------------------------------------- */}
+          
+          <div class="col-12 black " style={{paddingTop : 200}}> .</div>
+          
 
-          <div class="col-12 black" style={{ marginTop: -200 }}>
-            <h1 id="P1">ABOUT US</h1>
-          </div>
+          <div class="col-4 black"> .</div>
+          <div class="col-4 black"> <h2 id="P1" className = " h2 ab font">ABOUT US</h2></div>
+          <div class="col-4 black"> .</div>
 
           <div class="col-2 black"> 1</div>
           <div class="col-2 black"> 1</div>
