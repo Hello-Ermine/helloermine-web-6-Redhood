@@ -6,16 +6,16 @@ function App() {
     <div className="App black">
       <ul>
         <li>
-          <a href="//">ABOUT US</a>
+          <a href="#P1">ABOUT US</a>
         </li>
         <li>
-          <a href="//">STORY</a>
+          <a href="#P2">STORY</a>
         </li>
         <li>
-          <a href="//">CHARACHER</a>
+          <a href="#P3">CHARACHER</a>
         </li>
         <li>
-          <a href="//">ORIGINAL STORY</a>
+          <a href="#P4">ORIGINAL STORY</a>
         </li>
       </ul>
 
@@ -33,7 +33,7 @@ function App() {
       {/* ------------------------------------------------------------------------------- */}
       <div>
         <div class="col-5 headh2">
-          <h2>THE ORIGINAL STORY</h2>
+          <h2 id="P4">THE ORIGINAL STORY</h2>
         </div>
         {/* ------------------------------------------------------------------------------- */}
         <div class="row black">
@@ -80,7 +80,7 @@ function App() {
         </div>
         {/* ------------------------------------------------------------------------------- */}
         <div class="col-5 headh2R">
-          <h2>CHARACTERS</h2>
+          <h2 id="P3">CHARACTERS</h2>
         </div>
         {/* ------------------------------------------------------------------------------- */}
         <div class="row black">
@@ -167,7 +167,7 @@ function App() {
           {/* ------------------------------------------------------------------------------- */}
           <div>
             <div class="col-5 headh2" style={{ margin: 30, paddingLeft: 40 }}>
-              <h2>STORY </h2>
+              <h2 id="P2">STORY </h2>
             </div>
           </div>
           {/* ------------------------------------------------------------------------------- */}
@@ -213,7 +213,7 @@ function App() {
             </p>
           </div>
           <div class="col-6" style={{ paddingTop: 70 }}>
-            <img src="/photo/2.png" />
+            <img src="/photo/ฉากที่3.jpg" />
           </div>
           {/* ------------------------------------------------------------------------------- */}
           <div class="col-6" style={{ paddingTop: 70 }}>
@@ -243,7 +243,7 @@ function App() {
           {/* ------------------------------------------------------------------------------- */}
 
           <div class="col-12 black" style={{ marginTop: -200 }}>
-            <h1>ABOUT US</h1>
+            <h1 id="P1">ABOUT US</h1>
           </div>
 
           <div class="col-2 black"> 1</div>
