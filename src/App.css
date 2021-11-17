@@ -47,7 +47,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 1447px;
+  width: 100%;
   list-style-type: none;
   background-color: #fd5c5c;
   margin-top: -60px;
@@ -110,7 +110,7 @@ div div div h1 {
   padding-top: 25px;
   border-radius: 50px 0px 0px 50px;
   margin-top: 130px;
-  margin-left: 840px;
+  margin-left: 885px;
   font-size: 60px;
 }
 .textp1 {
