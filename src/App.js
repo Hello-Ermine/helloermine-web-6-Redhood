@@ -4,9 +4,12 @@ import { Button, Card, Container, Row } from 'react-bootstrap';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import React, { Component } from "react";
+import BackToTop from "react-back-to-top-button";
 
 
 function App() {
+
   useEffect(() => {
     Aos.init({ duration: 2000 });
 
@@ -447,6 +450,14 @@ function App() {
           {/* ------------------------------------------------------------------------------- */}
         </Row>
       </div>
+      <BackToTop
+        showOnScrollUp
+        showAt={50}
+        speed={100}
+        easing="easeInOutQuint"
+      >
+        Click To Top
+      </BackToTop>
     </div >
   );
 }
