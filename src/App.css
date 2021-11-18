@@ -1,9 +1,14 @@
 .App {
+  height: 100%;
+  width: 100%;
   text-align: center;
   background-image: url("Final_BG.png");
   background-size: cover;
   background-repeat: none;
+  overflow: hidden;
+
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -45,13 +50,12 @@
 }
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   overflow: hidden;
-  width: 100%;
+  /* width: 100%; */
   list-style-type: none;
   background-color: #fd5c5c;
   margin-top: -60px;
-  margin-left: -8px;
   position: fixed;
 }
 .BP {
@@ -101,7 +105,7 @@ div div div h1 {
   border-radius: 0px 50px 50px 0px;
   margin-left: -120px;
   font-size: 60px;
-  margin-top: -130px;
+  margin-top: 90px;
 }
 .headh2R {
   font-family: "Bell MT", Courier, monospace;
@@ -110,7 +114,7 @@ div div div h1 {
   padding-top: 25px;
   border-radius: 50px 0px 0px 50px;
   margin-top: 130px;
-  margin-left: 885px;
+  margin-left: 1150px;
   font-size: 60px;
 }
 .textp1 {
@@ -164,12 +168,33 @@ div div div h1 {
 .ab {
   background-color: #ffb4b4;
   padding: 15px;
+  margin-bottom: 25px;
   border-radius: 50px;
   font-size: 55px;
   color: #fd5c5c;
+}
+
+.h2{
+ 
+
 }
 
 /* .black{
   border: #282c34 2px solid;
 
 } */
+
+
+
+/* scollbar custom */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  border:7px solid #ffb4b4;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(45deg,#ffb4b4,#fd5c5c);
+  border-radius: 3px;
+}

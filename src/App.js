@@ -1,28 +1,34 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Button, Card, Container, Row } from 'react-bootstrap';
+
 
 function App() {
   return (
-    <div className="App black">
-      <ul>
-        <li>
-          <a style={{ paddingRight: 80 }} href="#P1">
-            ABOUT US
-          </a>
-        </li>
-        <li>
-          <a href="#P2">STORY</a>
-        </li>
-        <li>
-          <a href="#P3">CHARACHER</a>
-        </li>
-        <li>
-          <a href="#P4">ORIGINAL STORY</a>
-        </li>
-        <li>
-          <img style={{ marginLeft: -600 }} src="/photo/LOGO.png" />
-        </li>
-      </ul>
+    <div className="App">
+      <Container fluid>
+        <Row>
+          <ul>
+            <li>
+              <a style={{ paddingRight: 80 }} href="#P1">
+                ABOUT US
+              </a>
+            </li>
+            <li>
+              <a href="#P2">STORY</a>
+            </li>
+            <li>
+              <a href="#P3">CHARACHER</a>
+            </li>
+            <li>
+              <a href="#P4">ORIGINAL STORY</a>
+            </li>
+            <li>
+              <img style={{ marginLeft: -600 }} src="/photo/LOGO.png" />
+            </li>
+          </ul>
+        </Row>
+      </Container>
 
       {/* ------------------------------------------------------------------------------- */}
 
@@ -30,6 +36,12 @@ function App() {
         <div class="col-12">
           {" "}
           <h1 className="bighead">
+
+
+
+
+
+
             THE LITTLE RED <br />
             RIDING HOOD
           </h1>{" "}
@@ -38,7 +50,7 @@ function App() {
       {/* ------------------------------------------------------------------------------- */}
       <div>
         <div class="col-5 headh2">
-          <h2 id="P4">THE ORIGINAL STORY</h2>
+          <h2 id="P4" >THE ORIGINAL STORY</h2>
         </div>
         <div class="col-7"></div>
         {/* ------------------------------------------------------------------------------- */}
@@ -64,7 +76,7 @@ function App() {
           <div class="col-6 ">
             <img src="/photo/1.png" />
             <h4 class="undertext">
-              “Little Red Riding Hood”Illustration by J.W. Smith
+              “Little Red Riding Hood”Illustration by J.W.Smith
             </h4>
           </div>
 
@@ -107,7 +119,7 @@ function App() {
           <h2 id="P3">CHARACTERS</h2>
         </div>
         {/* ------------------------------------------------------------------------------- */}
-        <div class="row">
+        <Row>
           <div class="col-6" style={{ paddingTop: 80 }}>
             <img src="/photo/หนูน้อยหมวกแดง.jpg" />
           </div>
@@ -115,7 +127,7 @@ function App() {
           <div class="col-6 textp2">
             <p
               className="textp1 font"
-              style={{ paddingLeft: 20, margin: 10, paddingTop: 80 }}
+              style={{ paddingLeft: 40, margin: 10, paddingTop: 80 }}
             >
               Little Red Riding Hood
             </p>
@@ -147,7 +159,7 @@ function App() {
             <p
               className="textp1 font"
               style={{
-                paddingLeft: 20,
+                paddingLeft: 30,
                 margin: 10,
                 paddingTop: 80,
                 paddingTop: 10,
@@ -175,7 +187,7 @@ function App() {
           </div>
 
           <div class="col-6 textp2">
-            <p className="textp1 font" style={{ paddingLeft: 20, margin: 10 }}>
+            <p className="textp1 font" style={{ paddingLeft: 35, margin: 10 }}>
               Grandma
             </p>
             <p
@@ -186,15 +198,14 @@ function App() {
                 paddingRight: 50,
               }}
             >
-              คุณยายของหนูน้อยหมวกแดงที่อาศัยอยู่ที่หมู่บ้านข้างๆ
-              และรอหนูน้อยหมวกแดงเอาอาหารมาเยี่ยมดูอาการป่วยของคุณยาย
+              คุณยายของหนูน้อยหมวกแดงที่อาศัยอยู่ที่หมู่บ้านข้างๆและรอหนูน้อยหมวกแดงเอาอาหารมาเยี่ยมดูอาการป่วยของคุณยาย
             </p>
           </div>
           {/* ------------------------------------------------------------------------------- */}
           <div class="col-6 textp2">
             <p
               className="font"
-              style={{ paddingLeft: 20, margin: 10, paddingTop: 40 }}
+              style={{ paddingLeft: 40, margin: 10, paddingTop: 40 }}
             >
               Huntsman
             </p>
@@ -246,7 +257,7 @@ function App() {
               <br />
               “รีบไปรีบกลับอย่าไปเถลไถลที่ไหน
               <br />
-              อย่าพูดคุยกับคนแปลกหน้าด้วยล่ะเข้าใจไหม ?"
+              อย่าพูดคุยกับคนแปลกหน้าด้วยล่ะเข้าใจไหม?"
               <br />
               คุณแม่กำชับด้วยความเป็นห่วง
             </p>
@@ -345,7 +356,7 @@ function App() {
               ตัวหนูน้อยหมวกแดงอย่างเกรี้ยวกราดโชคดีที่เสียงกรี๊ด
               <br />
               ของหนูน้อยดังไปถึงนายพรานหนุ่มสองคนที่ผ่านมาพอดี
-              <br /> ปัง ปัง ปัง !!! เสียงปืนดังขึ้นสามนัด
+              <br /> ปัง ปัง ปัง !!!เสียงปืนดังขึ้นสามนัด
               <br /> พร้อมกับร่างของหมาป่าดิ้นรนอย่างเจ็บปวด
               <br />
               นายพรานหนุ่มบุกเข้ามาช่วยชีวิตหนูน้อยหมวกแดง
@@ -361,7 +372,7 @@ function App() {
             .
           </div>
 
-          <div class="col-4"> .</div>
+          <div class="col-4">.</div>
           <div class="col-4">
             {" "}
             <h2 id="P1" className=" ab font">
@@ -432,9 +443,9 @@ function App() {
           <div class="col-2"> </div>
 
           {/* ------------------------------------------------------------------------------- */}
-        </div>
+        </Row>
       </div>
-    </div>
+    </div >
   );
 }
 export default App;
