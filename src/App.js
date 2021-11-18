@@ -1,9 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Button, Card, Container, Row } from 'react-bootstrap';
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+
+  }, []);
+
   return (
     <div className="App">
       <Container fluid>
@@ -33,15 +41,9 @@ function App() {
       {/* ------------------------------------------------------------------------------- */}
 
       <div class="container front">
-        <div class="col-12">
+        <div data-aos="fade-up" class="col-12">
           {" "}
           <h1 className="bighead">
-
-
-
-
-
-
             THE LITTLE RED <br />
             RIDING HOOD
           </h1>{" "}
@@ -50,13 +52,13 @@ function App() {
       {/* ------------------------------------------------------------------------------- */}
       <div>
         <div class="col-5 headh2">
-          <h2 id="P4" >THE ORIGINAL STORY</h2>
+          <h2 data-aos="fade-right" id="P4" >THE ORIGINAL STORY</h2>
         </div>
         <div class="col-7"></div>
         {/* ------------------------------------------------------------------------------- */}
         <div class="row">
           <div class="col-6 text">
-            <p style={{ paddingLeft: 20, paddingRight: 20, margin: 10 }}>
+            <p data-aos="fade-up" style={{ paddingLeft: 20, paddingRight: 20, margin: 10 }}>
               <b>"หนูน้อยหมวกแดง"</b>
               <br />
               เป็นเทพนิยายยุโรปเกี่ยวกับเด็กสาวกับหมาป่า
@@ -73,7 +75,7 @@ function App() {
             </p>
           </div>
 
-          <div class="col-6 ">
+          <div data-aos="fade-left" class="col-6 ">
             <img src="/photo/1.png" />
             <h4 class="undertext">
               “Little Red Riding Hood”Illustration by J.W.Smith
@@ -81,14 +83,14 @@ function App() {
           </div>
 
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6">
+          <div data-aos="fade-right" class="col-6">
             <img src="/photo/2.png" />
             <h4 class="undertext">
               “Little Red Riding Hood” Illustration by Arthur Rackham
             </h4>
           </div>
 
-          <div class="col-6 text">
+          <div data-aos="fade-up" class="col-6 text">
             <p
               style={{
                 paddingLeft: 20,
@@ -116,15 +118,15 @@ function App() {
         {/* ------------------------------------------------------------------------------- */}
         <div class="col-7"> </div>
         <div class="col-5 headh2R">
-          <h2 id="P3">CHARACTERS</h2>
+          <h2 data-aos="fade-left" id="P3">CHARACTERS</h2>
         </div>
         {/* ------------------------------------------------------------------------------- */}
         <Row>
-          <div class="col-6" style={{ paddingTop: 80 }}>
+          <div data-aos="fade-right" class="col-6" style={{ paddingTop: 80 }}>
             <img src="/photo/หนูน้อยหมวกแดง.jpg" />
           </div>
 
-          <div class="col-6 textp2">
+          <div data-aos="fade-up" class="col-6 textp2">
             <p
               className="textp1 font"
               style={{ paddingLeft: 40, margin: 10, paddingTop: 80 }}
@@ -155,7 +157,7 @@ function App() {
             </p>
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6 textp2">
+          <div data-aos="fade-left" class="col-6 textp2">
             <p
               className="textp1 font"
               style={{
@@ -178,15 +180,15 @@ function App() {
             </p>
           </div>
 
-          <div class="col-6" style={{ paddingTop: 30 }}>
+          <div data-aos="fade-right" class="col-6" style={{ paddingTop: 30 }}>
             <img src="/photo/หมาป่า.jpg" />
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6">
+          <div data-aos="fade-right" class="col-6">
             <img src="/photo/คุณยาย.jpg" />
           </div>
 
-          <div class="col-6 textp2">
+          <div data-aos="fade-left" class="col-6 textp2">
             <p className="textp1 font" style={{ paddingLeft: 35, margin: 10 }}>
               Grandma
             </p>
@@ -202,7 +204,7 @@ function App() {
             </p>
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6 textp2">
+          <div data-aos="fade-up" class="col-6 textp2">
             <p
               className="font"
               style={{ paddingLeft: 40, margin: 10, paddingTop: 40 }}
@@ -220,7 +222,7 @@ function App() {
             </p>
           </div>
 
-          <div class="col-6" style={{ paddingTop: 50, marginBottom: 180 }}>
+          <div data-aos="fade-left" class="col-6" style={{ paddingTop: 50, marginBottom: 180 }}>
             <img src="/photo/Hunter.png" />
           </div>
           {/* ------------------------------------------------------------------------------- */}
@@ -229,11 +231,11 @@ function App() {
               class="col-5 headh2"
               style={{ margin: 30, paddingLeft: 40, marginLeft: 0 }}
             >
-              <h2 id="P2">STORY </h2>
+              <h2 data-aos="fade-right" id="P2">STORY </h2>
             </div>
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6 textp2">
+          <div data-aos="fade-up" class="col-6 textp2">
             <p
               style={{
                 paddingLeft: 50,
@@ -263,14 +265,14 @@ function App() {
             </p>
           </div>
 
-          <div class="col-6">
+          <div data-aos="fade-left" class="col-6">
             <img src="/photo/ฉากที่1.jpg" />
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6" style={{ paddingTop: 70 }}>
+          <div data-aos="fade-right" class="col-6" style={{ paddingTop: 70 }}>
             <img src="/photo/ฉากที่2.jpg" />
           </div>
-          <div class="col-6 textp2">
+          <div data-aos="fade-up" class="col-6 textp2">
             <p
               style={{
                 paddingLeft: 10,
@@ -298,7 +300,7 @@ function App() {
             </p>
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6 textp2">
+          <div data-aos="fade-right" class="col-6 textp2">
             <p
               style={{
                 paddingLeft: 20,
@@ -326,15 +328,15 @@ function App() {
               <br /> แปลกประหลาดไปจากเดิม
             </p>
           </div>
-          <div class="col-6" style={{ paddingTop: 30 }}>
+          <div data-aos="fade-up" class="col-6" style={{ paddingTop: 30 }}>
             <img src="/photo/ฉากที่3.jpg" />
           </div>
           {/* ------------------------------------------------------------------------------- */}
-          <div class="col-6">
+          <div data-aos="fade-right" class="col-6">
             <img src="/photo/ฉากที่4.png" />
           </div>
 
-          <div class="col-6 textp2">
+          <div data-aos="fade-left" class="col-6 textp2">
             <p
               style={{
                 paddingLeft: 20,
